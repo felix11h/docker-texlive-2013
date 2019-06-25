@@ -1,10 +1,10 @@
-FROM ubuntu:12.04
+FROM ubuntu:14.04
 MAINTAINER felix11h.dev@gmail.com
 
 USER root
 
 RUN apt-get update
-RUN apt-get install -y texlive-full; exit 0
+RUN apt-get install -y texlive-full
 RUN apt-get install -y latexmk
 
 # needed for syntax highlighting of code with minted
