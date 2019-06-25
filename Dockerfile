@@ -1,4 +1,4 @@
-FROM ubuntu:13.04
+FROM ubuntu:14.04
 MAINTAINER felix11h.dev@gmail.com
 
 USER root
